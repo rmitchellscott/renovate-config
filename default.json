@@ -20,6 +20,7 @@
   "platformAutomerge": true,
   "reviewersFromCodeOwners": true,
   "transitiveRemediation": true,
+  "separateMultipleMajor": true,
   "git-submodules": {
     "enabled": true
   }
