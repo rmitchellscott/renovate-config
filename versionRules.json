@@ -31,7 +31,7 @@
       "matchDatasources": ["docker"],
       "matchPackageNames": ["ghcr.io/linuxserver/qbittorrent"],
       "allowedVersions": 
-    }
+    },
     {
       "matchDatasources": ["github-releases"],
       "matchPackageNames": ["k3s-io/k3s"],
