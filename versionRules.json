@@ -24,9 +24,14 @@
     },
     {
       "matchDatasources": ["docker"],
-      "matchPackageNames": ["ghcr.io/linuxserver/qbittorrent"],
-      "allowedVersions": "!/^version-14/"
+      "matchPackageNames": ["ghcr.io/linuxserver/calibre-web"],
+      "allowedVersions": "< 5"
     },
+    {
+      "matchDatasources": ["docker"],
+      "matchPackageNames": ["ghcr.io/linuxserver/qbittorrent"],
+      "allowedVersions": 
+    }
     {
       "matchDatasources": ["github-releases"],
       "matchPackageNames": ["k3s-io/k3s"],
