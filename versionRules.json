@@ -30,7 +30,7 @@
     {
       "matchDatasources": ["docker"],
       "matchPackageNames": ["ghcr.io/linuxserver/qbittorrent"],
-      "allowedVersions": 
+      "allowedVersions": "!/^version-14/"
     },
     {
       "matchDatasources": ["github-releases"],
