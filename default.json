@@ -6,6 +6,7 @@
     ":automergePr",
     ":enablePreCommit",
     ":semanticCommits",
+    ":semanticCommitTypeAll(chore)",
     "github>rmitchellscott/renovate-config:nodeDockerLts",
     "github>rmitchellscott/renovate-config:nodeDevDependencies",
     "github>rmitchellscott/renovate-config:githubActions",
@@ -21,6 +22,8 @@
   "reviewersFromCodeOwners": true,
   "transitiveRemediation": true,
   "separateMultipleMajor": true,
+  "separateMinorPatch": true,
+  "separateMajorMinor": true,
   "git-submodules": {
     "enabled": true
   }
